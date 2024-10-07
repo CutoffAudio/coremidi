@@ -16,4 +16,5 @@ edition = "2021"
 block = "0.1.6"
 core-foundation-sys = "0.8.6"
 core-foundation = "0.9.4"
-coremidi-sys = "3.1.1"
+#coremidi-sys = { path = "../coremidi-sys" }
+coremidi-sys = { git = "https://github.com/CutoffAudio/coremidi-sys.git", branch = "cutoff-dev" }
