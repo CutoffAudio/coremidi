@@ -12,7 +12,7 @@ use crate::properties::{
 /// The base class of many CoreMIDI objects.
 ///
 #[derive(Hash, Eq, PartialEq)]
-pub struct Object(pub(crate) MIDIObjectRef);
+pub struct Object(pub MIDIObjectRef);
 
 impl Object {
     /// Get the name for the object.
